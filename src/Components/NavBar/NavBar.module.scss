@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:600&display=swap');
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  &Logo {
+    flex: 2;
+    cursor: pointer;
+    p {
+      font-family: 'Comfortaa', cursive;
+      color: #443f44;
+      font-size: 4.5rem;
+      letter-spacing: -0.64rem;
+    }
+  }
+
+  &Items {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &Button {
+      padding: 2.2rem 3.8rem;
+      border: none;
+      outline: none;
+      background: none;
+      background-color: #ffffff;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: #443f44;
+
+      &:last-of-type {
+        background-color: #443f44;
+        color: #fff;
+      }
+    }
+  }
+}

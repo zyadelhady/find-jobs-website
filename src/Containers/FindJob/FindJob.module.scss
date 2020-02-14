@@ -1,0 +1,13 @@
+.FindJobSection {
+  background-color: #f5f0ee;
+  padding: 5rem;
+}
+
+.FindJob {
+  // margin-top: 10rem;
+
+  &Cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

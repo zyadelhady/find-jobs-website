@@ -1,0 +1,60 @@
+.StartupsHeader {
+  padding: 1.5rem;
+  width: 100%;
+
+  margin-top: 10rem;
+  &Heading {
+    margin-bottom: 5rem;
+    p {
+      color: #ff6158;
+      font-size: 1.3rem;
+      font-family: 'Noto Serif', serif;
+      font-weight: 700;
+    }
+  }
+
+  &Photos {
+    position: absolute;
+    &Image {
+      position: relative;
+      width: 20rem;
+    }
+
+    &Image1 {
+      width: 40rem;
+      left: 31rem;
+      top: 0;
+      z-index: 1;
+    }
+    &Image2 {
+      width: 45rem;
+      left: -20rem;
+      top: -22rem;
+      z-index: 1;
+    }
+    &Image3 {
+      width: 59rem;
+      left: 12rem;
+      top: -50rem;
+      z-index: 2;
+    }
+  }
+
+  &Button {
+    position: absolute;
+
+    &Button {
+      position: relative;
+      top: 67rem;
+      left: -12rem;
+      outline: none;
+      border: none;
+      background-color: #ff6158;
+      color: #fff;
+      font-family: inherit;
+      font-size: 1.4rem;
+      padding: 2.8rem 4.4rem;
+      cursor: pointer;
+    }
+  }
+}

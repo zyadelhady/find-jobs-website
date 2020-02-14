@@ -1,0 +1,44 @@
+.ExploreHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+  margin-bottom: 7rem;
+  &Drag {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &Circle {
+      border-radius: 50%;
+      width: 8rem;
+      height: 8rem;
+      border: 1px solid rgba(69, 64, 69, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgba(69, 64, 69, 0.6);
+      span {
+        font-size: 1.4rem;
+      }
+    }
+    svg {
+      color: rgba(69, 64, 69, 0.6);
+    }
+    // &::before {
+    //   content: ' \003C';
+    //   position: relative;
+    //   color: rgba(69, 64, 69, 0.6);
+    //   left: -2rem;
+    //   top: 5.5rem;
+    // }
+    // &::after {
+    //   position: relative;
+    //   content: ' \003E';
+    //   color: rgba(69, 64, 69, 0.6);
+    //   left: 0rem;
+    //   top: 0rem;
+    // }
+  }
+}

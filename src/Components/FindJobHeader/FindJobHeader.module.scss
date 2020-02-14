@@ -1,0 +1,28 @@
+.FindJobHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+
+  &Heading {
+    &Text {
+      color: #ff6158;
+      font-size: 1.3rem;
+      font-family: 'Noto Serif', serif;
+      font-weight: 700;
+    }
+  }
+  &Button {
+    &Button {
+      border: none;
+      outline: none;
+      background: none;
+      cursor: pointer;
+      background-color: #ff6158;
+      padding: 2.7rem 6rem;
+      color: #fff;
+      font-size: 1.5rem;
+      font-family: inherit;
+    }
+  }
+}

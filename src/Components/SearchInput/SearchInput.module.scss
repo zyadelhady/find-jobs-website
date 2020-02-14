@@ -1,0 +1,25 @@
+.SearchInput {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4rem 4rem;
+  border-right: 1px solid #ccc;
+  flex: 2;
+  &Icon {
+    font-size: 2rem;
+    color: #a19c9b;
+  }
+  &Input {
+    background: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    margin-left: 0.5rem;
+    font-size: 1.7rem;
+    width: 100%;
+    &::placeholder {
+      font-family: inherit;
+      color: #a19c9b;
+    }
+  }
+}

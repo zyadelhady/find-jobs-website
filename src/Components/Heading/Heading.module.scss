@@ -1,0 +1,25 @@
+.Heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.7rem;
+
+  &Image {
+    img {
+      z-index: 2;
+      position: relative;
+      max-width: 70rem;
+      max-height: 100rem;
+    }
+    &BorderBottom {
+      background-color: #e6d1c9;
+      position: relative;
+      top: -70rem;
+      left: 20rem;
+      border-radius: 74% 26% 49% 51% / 78% 63% 37% 22%;
+      height: 30rem;
+      width: 40rem;
+      z-index: 1;
+    }
+  }
+}

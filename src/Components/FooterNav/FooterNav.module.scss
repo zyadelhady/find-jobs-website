@@ -1,0 +1,22 @@
+.FooterNav {
+  margin-top: 10rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &Logo {
+    flex: 2;
+    p {
+      font-family: 'Comfortaa', cursive;
+      color: #443f44;
+      font-size: 4.5rem;
+      letter-spacing: -0.64rem;
+    }
+  }
+
+  &Items {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,16 @@
+.Startups {
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+  margin-bottom: 20rem;
+  &Cards {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  &Header {
+    flex: 1;
+  }
+}

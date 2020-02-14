@@ -1,0 +1,57 @@
+.StartupsCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: all 0.4s;
+  padding: 6rem 5rem;
+  width: 80%;
+  border-bottom: 1px solid rgb(243, 238, 238);
+  cursor: pointer;
+  color: #9c9a9a;
+  user-select: none;
+
+  &Image {
+    margin-right: 2rem;
+    img {
+      max-width: 6.4rem;
+    }
+  }
+
+  &Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    &Label {
+      margin-bottom: 1.2rem;
+    }
+    &Text {
+      h5 {
+        color: currentColor !important;
+      }
+      margin-bottom: 1.2rem;
+    }
+
+    &Icons {
+      color: currentColor !important;
+      display: flex;
+      & > :not(:last-child) {
+        margin-right: 5rem;
+      }
+
+      &Icon {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        svg {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    background-color: #f5f0ee;
+    color: #000;
+  }
+}
