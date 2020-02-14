@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can see the demo from [here](https://hub-nine.now.sh/).
 
 ## Available Scripts
 
